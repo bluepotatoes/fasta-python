@@ -16,8 +16,8 @@ from matplotlib import pyplot as plt
 
 from fasta import fasta, plots, Convergence
 from fasta.examples import ExampleProblem, test_modes
-from fasta.linalg import LinearOperator, Matrix
-
+from fasta.linalg import Matrix
+from typing import Tuple
 __author__ = "Noah Singer"
 
 __all__ = ["grad", "div", "TVDenoisingProblem"]
